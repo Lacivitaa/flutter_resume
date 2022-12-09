@@ -51,6 +51,12 @@ class Home extends StatelessWidget {
                               topic: '<me>',
                               subTopic1: 'Igor Lacivita',
                               subTopic2: 'Application Developer - Front-End'),
+                          TextTopics(
+                              key: about,
+                              topic: '<about>',
+                              subTopic1: 'Sobre mim',
+                              subTopic2:
+                                  'Tenho 23 anos, moro em São Paulo, e sou formado em Engenharia da Computação pela Faculdade Engenheiro Salvador Arena. Sempre gostei de programação e encontrei no desevolvimento front-end uma oportunidade de explorar minhas habilidades de uma forma criativa e profissional'),
                           const TextTitle(title: 'Work Experiences'),
                           const TextDesc(
                             subTopic1: 'IBM',
@@ -71,16 +77,10 @@ class Home extends StatelessWidget {
                                 'Programa de estágio com foco no aprendizado de criação e teste de formulários e serviço de HelpDesk',
                           ),
                           TextTopics(
-                              key: about,
-                              topic: '<about>',
-                              subTopic1: 'Sobre mim',
-                              subTopic2:
-                                  'Tenho 23 anos, moro em São Paulo, e sou formado em Engenharia da Computação pela Faculdade Engenheiro Salvador Arena. Sempre gostei de programação e encontrei no desevolvimento front-end uma oportunidade de explorar minhas habilidades de uma forma criativa e profissional'),
-                          TextTopics(
                               key: work,
                               topic: '<work>',
-                              subTopic1: 'Igor Lacivita',
-                              subTopic2: 'Programador Java e Angular'),
+                              subTopic1: 'Projetos',
+                              subTopic2: 'Flutter e Angular'),
                         ]),
                       ),
                     ],
